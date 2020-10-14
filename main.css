@@ -1,0 +1,15 @@
+body {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+section.intro-section {
+	margin-bottom: 10%;
+}
+
+ul.disc-style {
+	list-style-type: disc;
+}

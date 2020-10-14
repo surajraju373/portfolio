@@ -1,0 +1,22 @@
+#skills-section {
+	margin-top: 5%;
+	margin-bottom: 5%;	
+}
+
+div.feature-item i {
+    font-size: 100px;
+    background: -webkit-linear-gradient(to left, #00cbfe, #00cbfe);
+    background: linear-gradient(to left, #00cbfe, #00cbfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 50px 0;   
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
+}
