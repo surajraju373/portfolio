@@ -24,3 +24,10 @@
     margin-left: 25px;
 	}
 }
+
+.social_icon {
+    padding-left: 25px;
+    font-size: 20pt;
+    display: inline-block;
+    margin: 30px;
+}
