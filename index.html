@@ -44,14 +44,14 @@
 	              <a class="nav-link" href="#intro-section">Intro</a>
 	            </li>
 	            <li class="nav-item">
-	              <a class="nav-link" href="#skills-section">Skills</a>
-	            </li>
-	            <li class="nav-item">
 	              <a class="nav-link" href="#projects-section">Projects</a>
 	            </li>
 	            <li class="nav-item">
 	              <a class="nav-link" href="#experience-section">Experience</a>
-	            </li>            
+	            </li>  
+	            <li class="nav-item">
+	              <a class="nav-link" href="assets/resume.pdf" target="_blank">Resume</a>
+	            </li>           
 	            <li class="nav-item dropdown">
 	              <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Interests</a>
 	              <div class="dropdown-menu" aria-labelledby="dropdown07">
@@ -72,65 +72,67 @@
 		<!-- Intro --> 
 		<section id="intro-section" class="intro-section">   
 		    <div class="container text-center">
-		        <img class="profile-image rounded-circle" src="" alt="">
+		        <img class="profile-image rounded-circle" src="images/suraj.png" alt="">
 		        <h1 class="name">Suraj Raju Guntimadugu</h1>
 		        <div class="title italic"><h3>Software Engineer, Data Science practitioner, </h3></div>
 		        <div class="profile">
-					<a href="https://www.linkedin.com/in/surajraju373" target="_blank" class="fa fa-linkedin social_icon"></a>
-					<a href="https://www.github.com/surajraju373" target="_blank" class="fa fa-github social_icon"></a>
-					<a href="https://www.instagram.com/suraj_raju_/" target="_blank" class="fa fa-instagram social_icon"></a>
+					<a href="https://www.linkedin.com/in/surajraju373" target="_blank">
+						<i class="fa fa-linkedin"></i>
+					</a>
+					<a href="https://www.github.com/surajraju373" target="_blank">
+						<i class="fa fa-github social_icon"></i>
+					</a>
+					<a href="https://www.instagram.com/suraj_raju_/" target="_blank">
+						<i class="fa fa-instagram social_icon"></i>
+					</a>
 		        </div><!--//profile-->
 		    </div><!--//container-->
 		</section><!--//intro-->
 
-		<!-- Skills --> 
-		<section id="skills-section">	
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="feature-item">
-							<div class="center">
-								<i class="fa fa-code"></i>
-							</div>
-						    <h2>Programming Languages</h2>
-						    <p>Java, Python, C</p>
-						</div>
-					 </div>
-					 <div class="col-md-4">			    
-						<div class="feature-item">
-							<div class="center">
-								<i class="fa fa-star"></i>
-							</div>
-						    <h2>Tools, Softwares</h2>
-						    <p>Git, Maven, Jenkins, Eclispe, IntelliJ</p>
-						</div>
-					</div>
-					<div class="col-md-4">    
-						<div class="feature-item">
-							<div class="center">
-								<i class="fa fa-star"></i>
-							</div>
-						    <h2>Machine Learning</h2>
-						    <p>Python for DS</p>
-						</div>
-					</div>
-				</div>
-			</div>    
-	    </section><!--//skills-->
-
+	    <!--Projects -->
 	    <section id="projects-section">
+	    	<h2 class="section-heading text-uppercase">Projects</h2>
 	    	<div class="container">
-
+	    		<div class="project-card">
+	    			<span class="title">Performatix</span>
+	    			<br>
+	    			<a href="https://youtu.be/-xum1_tSfsA" target="_blank">View Project</a>
+	    			<br>
+	    			<p class="project_description">
+	    				A Machine Learning approach to analyse and predict a student's performance based on a set of parameters.
+	    			</p>
+	    		</div>
+	    		<div class="project-card">
+	    			<span class="title">URL Shortener</span>
+	    			<br>
+	    			<a href="https://github.com/surajraju373/java-projects" target="_blank">View Project</a>
+	    			<br>
+	    			<p class="project_description">
+	    				A web application which shortens a lengthy url and will let you use in real time by providing the analytics on usage of website.
+	    			</p>
+	    		</div>
+	    		<div class="project-card">
+	    			<span class="title">Mission Kitchen</span>
+	    			<br>
+	    			<a href="https://github.com/surajraju373/Mission-Kitchen" target="_blank">View Project</a>
+	    			<br>
+	    			<p class="project_description">
+	    				An IoT based home automation application which helps us to track our groceries in the kitchen and provide day to day analytics of usage.
+	    			</p>
+	    		</div>
+	    		<br>
 	    	</div>
 	    </section>
+	    <!--//Projects -->
 
 	    <!-- Timeline -->
 	    <section id="experience-section">
 	      <div class="container">
 	        <div class="row">
 	          <div class="col-lg-12 text-center">
-	            <h2 class="section-heading text-uppercase">About</h2>
-	            <h3 class="section-subheading text-muted">One liner place holder</h3>
+	            <h2 class="section-heading text-uppercase">Professional Career</h2>
+	            <br>
+	            
 	          </div>
 	        </div>
 	        <div class="row">
@@ -145,14 +147,13 @@
 	                <div class="timeline-panel">
 	                  <div class="timeline-heading">
 	                    <h4>June 2019 - Current</h4>
-	                    <h4 class="subheading">Associate Software <br/>Engineer</h4>
+	                    <h4 class="subheading">Associate Software Engineer</h4>
 	                  </div>
 	                  <div class="timeline-body">
 	                    <p class="text-muted">
 	                    	<ul class="disc-style">
 	                    		<li>Developed an end to end test framework for Dynamic Translation product using selenium with Java.</li>
 	                    		<li>Worked on Language Detection service, a machine learning model which detects the language of given text.</li>
-	                    		<li>Designed and developed automation suite for features under Service Catalog team in the company.</li>
 	                    	</ul>
 	                    </p>
 	                  </div>
