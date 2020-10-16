@@ -14,3 +14,11 @@ section.intro-section {
 ul.disc-style {
 	list-style-type: disc;
 }
+
+.bg {
+  background-image: url("");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
